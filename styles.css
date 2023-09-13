@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Noto+Sans+Symbols:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    text-decoration: none;
+    padding: 0;
+}
+img {
+    width: 100%;
+    /* height: auto; */
+    object-fit: cover;
+}
+.main-container {
+    padding-top: 72px;
+    padding-bottom: 129px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 72px;
+}
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu {
+    margin: 0;
+    color: var(--Gunmetal, #5E607A);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.logo img {
+    max-height: 39,9px;
+}
+nav {
+    display: flex;
+    gap: 40px;
+}
+nav a {
+    color: var(--Gunmetal, #5E607A);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+main .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+.left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 7fr 4fr;
+    gap: 30px;
+}
+.main-top {
+    grid-column: 1/3;
+}
+.main-left {
+   display: grid;
+}
+.main-left p {
+    color: var(--Dark-Space-Blue, #00001A);
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+/*Don't know if the code below is useful */
+.main-right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 29px;
+}
+.main-right p {
+    color: var(--Gunmetal, #5E607A);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.readmore {
+    padding: 13px 35px 11px 31px;
+    background-color: #F15D51;
+    width: fit-content;
+}
+.readmore a {
+    color: var(--Almost-White, #FFFDFA);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 4.375px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 29px;
+}
+.card div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+span {
+    width: 100%;
+    background-color: #5E607A;
+    height: 1px;
+}
+.right {
+    padding: 32px 24px;
+    background-color: #00001A;
+}
+.card h1 {
+    color: var(--Yellow, #E9AA52);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.card h2 {
+    color: var(--Almost-White, #FFFDFA);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+.card p {
+    color: var(--Silver, #C5C6CE);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+section>div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.sub {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    gap: 24px;
+}
+.sub h2 {
+    color: var(--Silver, #C5C6CE);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.sub h3{
+    color: var(--Dark-Space-Blue, #00001A);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+.sub p {
+    color: var(--Gunmetal, #5E607A);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-right {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+
+
