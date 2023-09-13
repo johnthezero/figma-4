@@ -27,7 +27,7 @@ img {
 header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     
 }
 .menu {
@@ -192,6 +192,42 @@ section>div {
     display: grid;
     justify-content: space-evenly;
 }
-
-
+.burger {
+    display: none;
+}
+@media screen and (max-width:768px) {
+    * {
+       /*  margin: auto; */
+    }
+    .container  {
+        max-width: 768px;
+    }
+    .main-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    header .container{
+        margin: 0;
+        max-width: 768px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    .burger{
+        display: inline;
+        margin: 0;
+    }
+   
+    .main-top {
+        grid-column: 1/2;
+    } 
+    section .container, main .container, main .container .left {
+        display:grid ;
+        grid-template-columns: 1fr;
+    }
+    section .container {
+        justify-content:space-between;
+    }
+}
 
